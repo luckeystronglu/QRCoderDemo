@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">QRCoderDemo</string>
+    <string name="hello">Hello World, BarCodeTestActivity!</string>
+</resources>
