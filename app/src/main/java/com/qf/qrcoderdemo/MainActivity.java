@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
                 //生成二维码
                 String str = et.getText().toString();
                 if (str == null || str.equals("")){
-                    Toast.makeText(MainActivity.this, "没有任务内容", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "没有任何内容", Toast.LENGTH_SHORT).show();
                 }else {
                     Bitmap bitmap = QRcodeUtil.btnGenRawCode(this, str);
                     iv.setImageBitmap(bitmap);
